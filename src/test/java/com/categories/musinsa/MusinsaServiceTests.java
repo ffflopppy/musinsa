@@ -32,7 +32,7 @@ class MusinsaServiceTests {
         //when
         Categories category = categoryService.isExistCategory(11L);
         //then
-        Assertions.assertThat(category).isNotNull();
+        Assertions.assertThat(category).isNull();
     }
 
     @Test
